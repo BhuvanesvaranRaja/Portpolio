@@ -1,0 +1,195 @@
+
+/* fontssss */
+
+  @import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&family=Gloock&family=Lato&family=Press+Start+2P&family=Prompt:wght@500&family=Saira+Condensed:wght@500&display=swap');
+
+/* navbar */
+.nav-link{
+    margin-right: 15px;
+    font-weight: bolder;
+    
+
+}
+.menubar{
+    
+    font-family: 'Prompt', sans-serif;
+    font-size:15px;
+    letter-spacing: 2px;
+    padding-right: 5px;
+}
+
+
+.nav-link:hover{
+    
+    border-bottom:2px solid rgb(242, 55, 26);
+
+}
+ .navbar-toggler{
+    padding: 20px;
+    
+} 
+/* //////////////////////////////////////////////////////////////////// */
+
+/* content */
+
+.namings{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Gloock', serif;
+    
+
+    
+       
+     
+}
+
+
+.upperContent{
+    background-image: url("../assets/bgimg.jpg");
+    padding-top: 190px;
+    padding-bottom: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.upperContent p{
+    font-size: 60px;
+    color: rgb(254, 249, 249);
+    letter-spacing: 7px;
+}
+
+.upperContent span{
+    letter-spacing: 2px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 30px;
+}
+.btn1{
+    margin: 20px;
+    
+}
+/* //////////////////////////////////////////////ABOUT ME/////////////////////////// */
+
+.myImg{
+   
+    padding-left: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+
+}
+.abt-me{
+     background: color #808285 !important; 
+    border-radius: 50px;
+    color: rgb(20, 19, 19);
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+#paraabt{
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: justify;
+    width: 80%;
+    letter-spacing: 1px;
+    
+     
+}
+span{
+    color: red;
+}
+
+ .msd p{
+    margin-top:100px ;
+    height: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+} 
+
+a{
+color: inherit;
+    
+}
+
+  /* tags */
+.linkeln:hover{
+    color: rgb(2, 64, 125);
+    cursor: pointer;
+  }
+.github:hover{
+    color: rgb(9, 9, 9);
+    cursor: pointer;
+  }
+  .instagram:hover{
+    color: rgb(229, 19, 19);
+    cursor: pointer;
+  }
+/* /////////////////////////////////////////////////////////////////////////////////////skills.css */
+
+.quoteimg{
+    text-align: center;
+    margin-top: 10px;
+}
+.mySkills{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card-text{
+    text-align: justify;
+}
+.myskillHead{
+    font-family: 'Exo', sans-serif; 
+    text-align: center;
+    color: rgb(242, 55, 26);
+    text-decoration: underline;
+    font-weight: 800;
+    letter-spacing: 2px;
+
+}
+/* /////////////////////////PROJECTS////////////////////////// */
+
+
+.headproj{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.CardS{
+    height: 40%;
+    width: 40%;
+    text-align: center;
+   
+  }
+  .projectList{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+    
+
+
+
+
+
+
+
+
+
